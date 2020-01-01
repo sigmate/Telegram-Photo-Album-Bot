@@ -160,7 +160,7 @@ func main() {
 						continue
 					}
 					replyWithForcedReply(bot, update.Message, viper.GetString("MsgSendMeSomething"))
-				case "closeAlbum":
+				case "cloreAlbum":
 					if !albumAlreadyOpen() {
 						replyToCommandWithMessage(bot, update.Message, viper.GetString("MsgNoAlbum"))
 						continue
